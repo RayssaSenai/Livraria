@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Livraria Castelo</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/flowbite@1.6.5/dist/flowbite.min.js"></script>
+  <script src="https://unpkg.com/flowbite@1.6.5/dist/flowbite.min.js"></script>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-fundo text-white">
+  <header>
+    <nav class="bg-fundo shadow-lg">
+      <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl p-4">
+        <a href="#" class="flex items-center">
+          <img src="LivrariaLOgo.jpg" class="mr-3 h-6 sm:h-9" alt="Logo" />
+          <span class="text-xl font-semibold text-destaque">Livraria Castelo</span>
+        </a>
+        <div class="flex items-center lg:order-2">
+          <a href="#" class="text-destaque hover:bg-white hover:text-fundo focus:ring-4 focus:ring-destaque font-medium rounded-lg text-sm px-4 py-2 mr-2">Conecte-se</a>
+          <a href="#" class="bg-destaque text-fundo hover:bg-white hover:text-fundo focus:ring-4 focus:ring-destaque font-medium rounded-lg text-sm px-4 py-2 mr-2">Seu Carrinho</a>
+        </div>
+        <div class="hidden lg:flex lg:w-auto lg:order-1" id="mobile-menu-2">
+          <ul class="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
+            <li><a href="#" class="text-destaque hover:underline">Home</a></li>
+            <li><a href="#" class="text-white hover:text-destaque">Promoções</a></li>
+            <li><a href="#" class="text-white hover:text-destaque">Catálogo</a></li>
+            <li><a href="#" class="text-white hover:text-destaque">Sobre</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <section class="bg-fundo text-white">
+    <div class="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
+      <div class="font-light text-destaque sm:text-lg">
+        <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-destaque">Mundo das Palavras</h2>
+        <p class="mb-4">Mais do que uma livraria, um refúgio para os amantes da leitura — onde histórias ganham vida, conhecimento se espalha e cada visita é uma nova jornada pelo universo infinito dos livros.</p>
+      </div>
+      <div class="grid grid-cols-2 gap-4 mt-8">
+        <img class="w-full rounded-lg" src="welcomww.jpg" alt="Welcome">
+        <img class="mt-4 w-full lg:mt-10 rounded-lg" src="3.jpg" alt="Livro">
+      </div>
+    </div>
+  </section>
+
+     <div class="max-w-7xl mx-auto">
+    <h1 class="text-3xl font-bold mb-4">📚 Livros Disponíveis</h1>
+    <p class="mb-4">⏳ Atualizando em <span id="timer" class="font-semibold text-blue-600">30</span> segundos</p>
+    <div id="livros" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4"></div>
+  </div>
+    
+
+  <footer class="bg-fundo rounded-lg shadow-sm m-4 text-white">
+    <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
+      <div class="sm:flex sm:items-center sm:justify-between">
+        <a href="#" class="flex items-center mb-4 sm:mb-0 space-x-3">
+          <img src="LivrariaLOgo.jpg" class="h-8" alt="livraria Logo" />
+          <span class="text-2xl font-semibold text-destaque">Livraria Castelo</span>
+        </a>
+        <ul class="flex flex-wrap items-center mb-6 text-sm font-medium text-destaque sm:mb-0">
+          <li><a href="#" class="hover:underline me-4 md:me-6">Sobre</a></li>
+          <li><a href="#" class="hover:underline me-4 md:me-6">Política de Privacidade</a></li>
+          <li><a href="#" class="hover:underline me-4 md:me-6">Licenciamento</a></li>
+          <li><a href="#" class="hover:underline">Contato</a></li>
+        </ul>
+      </div>
+      <hr class="my-6 border-destaque sm:mx-auto" />
+      <span class="block text-sm text-destaque text-center">© 2025 <a href="#" class="hover:underline">LivrariaCastelo™</a>. Todos os direitos reservados.</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
